@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Objects;
 import java.io.Serializable;
 
-// A POJO ...
+// A POJO always...
 //Implements Serializable
 
 public class Dog implements Serializable{
