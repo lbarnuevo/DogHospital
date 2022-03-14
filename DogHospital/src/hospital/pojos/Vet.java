@@ -7,6 +7,11 @@ import java.util.Objects;
 
 public class Vet implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8633219801859269949L;
+	
 	private Integer id;
 	private String name;
 	private String speciality;
@@ -72,6 +77,4 @@ public class Vet implements Serializable{
 	public String toString() {
 		return "Vets [id=" + id + ", name=" + name + ", speciality=" + speciality + ", dogs=" + dogs + "]";
 	}
-	
-	
 }

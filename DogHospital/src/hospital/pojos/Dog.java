@@ -118,5 +118,4 @@ public class Dog implements Serializable{
 	public void setOwner(Owner owner) {
 		this.owner = owner;
 	}
-	
 }
