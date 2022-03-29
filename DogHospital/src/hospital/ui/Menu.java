@@ -12,19 +12,18 @@ public class Menu {
 		try {
 			do {
 				System.out.println("Please choose an option");
-				System.out.println("1. Whatever A");
-				System.out.println("2. Whatever B");
+				System.out.println("1. Log as owner");
+				System.out.println("2. Log as vet");
 				System.out.println("0. Exit");
 				
 				int choice = Integer.parseInt(reader.readLine());
 				switch(choice) {
 				case 1:
-					// Call method for whatever A
+					// Call method for log as owner
 					break;
 				case 2:
-					// Call method for whatever B
-					// Random comment
-						//Random comments 2 
+					// Call method for log as vet 
+					
 					break;
 				case 0:
 					System.exit(0);
