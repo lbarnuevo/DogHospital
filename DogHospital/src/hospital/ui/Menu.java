@@ -24,6 +24,7 @@ public class Menu {
 				case 2:
 					// Call method for whatever B
 					// Random comment
+						//Random comments 2 
 					break;
 				case 0:
 					System.exit(0);
