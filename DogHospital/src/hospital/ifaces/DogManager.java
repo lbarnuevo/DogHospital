@@ -5,11 +5,13 @@ import java.util.List;
 import hospital.pojos.Dog;
 import hospital.pojos.Owner;
 
-public class DogManager {
-	//methods performed on dog
+public interface DogManager {
 	
+	// Adding a new dog
 	public void addDog(Dog d);
-	// Search dogs of owner
 	
+	// Search dog of owner
 	public List<Dog> searchDogByOwner(Owner o);
+	
+
 }
